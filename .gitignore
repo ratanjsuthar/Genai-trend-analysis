@@ -1,0 +1,21 @@
+# Environment & secrets
+.env
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large/raw data (keep raw data out of git if it's large; comment out if small enough to version)
+# data/raw/*.csv
+
+# Jupyter
+.jupyter/
