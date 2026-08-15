@@ -2,7 +2,7 @@
 
 > An end-to-end data analysis project tracking how generative AI tools (ChatGPT, Claude, Gemini, Copilot) rose in public interest, developer adoption, and job market demand — with an AI-augmented insight layer that mirrors how modern data analysis is evolving.
 
-## 🎯 Project Goal
+# Project Goal
 
 Most "trend" projects stop at pretty charts. This one goes further: it asks whether public search interest, developer activity on GitHub, and job market demand for AI skills actually move together — and uses an LLM to generate plain-English insight summaries from the data, reflecting how AI-augmented analytics is becoming part of the standard data workflow.
 
@@ -13,7 +13,7 @@ Most "trend" projects stop at pretty charts. This one goes further: it asks whet
 3. Has demand for AI/GenAI-related skills in job postings grown proportionally?
 4. Which tool is winning the "attention race" right now, and is the trend still accelerating or plateauing?
 
-## 🗂️ Data Sources
+# Data Sources
 
 | Source | Data | Access method |
 |---|---|---|
@@ -22,7 +22,7 @@ Most "trend" projects stop at pretty charts. This one goes further: it asks whet
 | Hacker News (via Algolia API) | Mention frequency of AI terms in tech discourse | Free public API, no key needed |
 | Kaggle: Data Science & AI Job Postings | Skill demand, salary data for AI-related roles | Manual download from kaggle.com |
 
-## 🛠️ Tech Stack
+# Tech Stack
 
 - **Python**: pandas, numpy for wrangling
 - **Visualization**: matplotlib, seaborn, plotly (interactive)
@@ -30,7 +30,7 @@ Most "trend" projects stop at pretty charts. This one goes further: it asks whet
 - **AI-augmented layer**: Anthropic API (Claude) to auto-generate written insights from summary statistics
 - **Optional dashboard**: Streamlit
 
-## 📁 Project Structure
+# Project Structure
 
 ```
 genai-trends-analysis/
@@ -45,7 +45,7 @@ genai-trends-analysis/
 └── README.md
 ```
 
-## 🚀 How to Run This Project
+# How to Run This Project
 
 ```bash
 git clone https://github.com/<your-username>/genai-trends-analysis.git
@@ -64,7 +64,7 @@ python src/clean_and_merge.py
 jupyter notebook notebooks/01_eda.ipynb
 ```
 
-## 📊 Key Findings
+# Key Findings
 
 *(Fill this in once analysis is complete — 3-5 bullet points with the most interesting, specific insights. This is the section recruiters actually read.)*
 
@@ -72,15 +72,14 @@ jupyter notebook notebooks/01_eda.ipynb
 - Finding 2...
 - Finding 3...
 
-## 🔮 What's Next
+# What's Next
 
 - Extend to more tools as they launch
 - Build a live-updating Streamlit dashboard
 - Add sentiment analysis on Hacker News discussion text
 
-## 👤 Author
-
-[Your name] — [LinkedIn] — [Portfolio site]
+# Auth
+ Ratan Lal J 
 
 ---
 *Built as a portfolio project demonstrating end-to-end data analysis: data collection, cleaning, EDA, trend analysis, and AI-augmented reporting.*
